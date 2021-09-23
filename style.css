@@ -9,7 +9,7 @@ body {
 .container {
   display: grid; 
   position: relative;
-  top: -90px;
+  top: -95px;
   grid-auto-columns: 1fr; 
   grid-template-columns: 3.4fr 1.1fr 1.6fr 3.4fr; 
   grid-template-rows: 1fr 1fr 1fr; 
