@@ -19,7 +19,7 @@ body {
 #reset{ 
   position: relative;
   left: 15px ;
-  top: 30px;
+  top: 55px;
 }
 
 #reset:hover {
@@ -37,7 +37,7 @@ body {
 #play{ 
   position: relative;
   left:-15px;
-  top: 48px;
+  top: 73px;
 }
 
 #play:hover {
@@ -55,21 +55,20 @@ body {
 #display{ 
   font-size: 25pt;
   position: relative;
-  top: 40px;
+  top: 60px;
 }
 
 #pom {
   position: relative;
-  top: 40px;
+  top: 60px;
 }
 
 #short{
   position: relative;
-  top: 40px;
+  top: 60px;
 }
 
 #long {
   position: relative;
-  top: 40px;
+  top: 60px;
 }
-
