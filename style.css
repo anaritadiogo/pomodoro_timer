@@ -2,14 +2,21 @@ body {
   background-color: #f4eddf;
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
+  align-items: center;
+  text-align: center;
+}
+
+#other {
+  position: fixed;
+  align-items: center;
+  width: 60px;
+  height: 40px;
 }
 
 #reset{ 
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  left: 66px;
-  top: 82px; 
+  position: relative;
+  left: 15px ;
+  top: -8px;
 }
 
 #reset:hover {
@@ -25,11 +32,9 @@ body {
 }
 
 #play{ 
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  left: 46px;
-  top: 82px;
+  position: relative;
+  left:-15px;
+  top: 10px;
 }
 
 #play:hover {
@@ -45,35 +50,19 @@ body {
 }
 
 #display{ 
-  font-size: 30pt;
-  left:-20px;
-  position: absolute;
-  width: 86px;
-  height: 21px;
-  left: 18px;
-  top: 33px;
+  font-size: 25pt;
+  position: relative;
+
 }
 
 #pom {
-  position: absolute;
-  width: 120px;
-  height: 80px;
-  left: 142px;
-  top: 10px;
+  position: relative;
 }
 
 #short{
-  position: absolute;
-  width: 120px;
-  height: 80px;
-  left: 137px;
-  top: 40px;
+  position: relative;
 }
 
 #long {
-  position: absolute;
-  width: 120px;
-  height: 80px;
-  left: 138px;
-  top: 70px;
+  position: relative;
 }
