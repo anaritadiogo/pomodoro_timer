@@ -37,9 +37,14 @@ body {
 #play{ 
   position: relative;
   left:-15px;
-  top: 23px;
+  top: 93px;
 }
 
+#pause{ 
+  position: relative;
+  left:-15px;
+  top: 93px;
+}
 #play:hover {
   transition: 0.5s;
   cursor: pointer;
