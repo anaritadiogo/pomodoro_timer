@@ -4,11 +4,14 @@ body {
   font-style: italic;
   align-items: center;
   text-align: center;
+  top: 100px;
+
 }
 
 #other {
   position: fixed;
   align-items: center;
+  top:20px;
   width: 60px;
   height: 40px;
 }
@@ -16,7 +19,7 @@ body {
 #reset{ 
   position: relative;
   left: 15px ;
-  top: -8px;
+  top: 30px;
 }
 
 #reset:hover {
@@ -34,7 +37,7 @@ body {
 #play{ 
   position: relative;
   left:-15px;
-  top: 10px;
+  top: 48px;
 }
 
 #play:hover {
@@ -52,17 +55,21 @@ body {
 #display{ 
   font-size: 25pt;
   position: relative;
-
+  top: 40px;
 }
 
 #pom {
   position: relative;
+  top: 40px;
 }
 
 #short{
   position: relative;
+  top: 40px;
 }
 
 #long {
   position: relative;
+  top: 40px;
 }
+
