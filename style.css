@@ -2,14 +2,24 @@ body {
   background-color: #f4eddf;
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
+  align-items: center;
+  text-align: center;
+  top: 100px;
+
+}
+
+#other {
+  position: fixed;
+  align-items: center;
+  top:20px;
+  width: 60px;
+  height: 40px;
 }
 
 #reset{ 
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  left: 66px;
-  top: 82px; 
+  position: relative;
+  left: 15px ;
+  top: 75px;
 }
 
 #reset:hover {
@@ -25,13 +35,16 @@ body {
 }
 
 #play{ 
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  left: 46px;
-  top: 82px;
+  position: relative;
+  left:-15px;
+  top: 93px;
 }
 
+#pause{ 
+  position: relative;
+  left:-15px;
+  top: 93px;
+}
 #play:hover {
   transition: 0.5s;
   cursor: pointer;
@@ -45,35 +58,23 @@ body {
 }
 
 #display{ 
-  font-size: 30pt;
-  left:-20px;
-  position: absolute;
-  width: 86px;
-  height: 21px;
-  left: 18px;
-  top: 33px;
+  font-size: 25pt;
+  position: relative;
+  top: 80px;
 }
 
 #pom {
-  position: absolute;
-  width: 120px;
-  height: 80px;
-  left: 142px;
-  top: 10px;
+  position: relative;
+  top: 80px;
 }
 
 #short{
-  position: absolute;
-  width: 120px;
-  height: 80px;
-  left: 137px;
-  top: 40px;
+  position: relative;
+  top: 80px;
 }
 
 #long {
-  position: absolute;
-  width: 120px;
-  height: 80px;
-  left: 138px;
-  top: 70px;
+  position: relative;
+  top: 80px;
 }
+
