@@ -38,6 +38,7 @@ function display () {
 // button to pomodoro timer
 $('#pom').on('click', function() {
   tf = 25;
+  newinitial = tf;
   display();
   clearInterval(x);
   $('#pause').hide();
@@ -47,6 +48,7 @@ $('#pom').on('click', function() {
 // button to short break
 $('#short').on('click',function() {
     tf = 05 ;
+    newinitial = tf;
     display();
     clearInterval(x);
     $('#pause').hide();
@@ -56,6 +58,7 @@ $('#short').on('click',function() {
 // button to long break
 $('#long').on('click',function() {
     tf = 15;
+    newinitial = tf;
     display();
     clearInterval(x);
     $('#pause').hide();
